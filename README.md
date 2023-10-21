@@ -22,14 +22,13 @@ Finally, after defining all the functions above, we can convert the input image 
 
 # III. Formulas Used
 
-1. **Grayscale Conversion**: 
-![equation](https://latex.codecogs.com/svg.latex?\large&space;\text{grey\_img}=\text{image}[...,:3]*[0.2989,%200.5870,%200.1140])
-
-2. **First Derivative using Central Differences**:
+1. **First Derivative using Central Differences**:
+   
 ![equation](https://latex.codecogs.com/svg.latex?f'_x(x,y)%20=%20\frac{\text{img}[x,y+h]%20-%20\text{img}[x,y-h]}{2h})
-Where \( h \) is a small constant defining the neighborhood for the derivative.
+- Where \( h \) is a small constant defining the neighborhood for the derivative.
 
 3. **Second Derivative using Central Differences**:
+   
 ![equation](https://latex.codecogs.com/svg.latex?f''_x(x,y)%20=%20\frac{\text{img}[x,y+h]%20-%202%20\times%20\text{img}[x,y]%20+%20\text{img}[x,y-h]}{h^2})
 
 
