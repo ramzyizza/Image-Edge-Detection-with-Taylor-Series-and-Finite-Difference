@@ -27,7 +27,7 @@ Finally, after defining all the functions above, we can convert the input image 
 ![equation](https://latex.codecogs.com/svg.latex?f'_x(x,y)%20=%20\frac{\text{img}[x,y+h]%20-%20\text{img}[x,y-h]}{2h})
 - Where \( h \) is a small constant defining the neighborhood for the derivative.
 
-3. **Second Derivative using Central Differences**:
+2. **Second Derivative using Central Differences**:
    
 ![equation](https://latex.codecogs.com/svg.latex?f''_x(x,y)%20=%20\frac{\text{img}[x,y+h]%20-%202%20\times%20\text{img}[x,y]%20+%20\text{img}[x,y-h]}{h^2})
 
